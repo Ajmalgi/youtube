@@ -1,0 +1,283 @@
+header{
+    width:100%;
+    height:56px;
+    background-color:white;
+}
+
+ body{
+    margin:0px;  
+ }
+
+ .left_area{width:70%;
+    height:100%;
+    float:left;
+}
+
+.image{
+    height: 63px;
+    width: 101px;
+    margin-left: 59px;
+} 
+    
+.sea{
+      
+   position: absolute;
+    left: 28%;
+    top: 13px;
+    width: 506px;
+    height: 31px;
+}
+
+.search{
+    float:left;
+}
+.left_area button{
+   float:right;  
+    position:absolute;
+    left: 61.48%;
+    top:13PX;
+    width: 65px;   
+    height: 37.7px;
+}
+
+.micro{
+   Position: absolute;
+    left: 66.3%;
+    top: 11.9px;
+    background: rgb(243, 241, 241);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.micro i{
+    margin: 10.7px;
+    margin-left: 14.5px;
+}
+
+.right_area{
+    width:30%;
+    height:100%;
+    float:left;
+}
+
+.right_area a button{
+    margin-left: 76%;
+    margin-top: 14px;
+    background:white;
+    border-color: rgb(71, 141, 179);
+    border-style:1px;
+    width: 91px;
+    height: 34px;
+}
+
+.lower_head{
+    width:100%;
+    height:40px;
+    background-color:white; 
+}
+
+.btn{  
+    margin-left:14%;      
+}
+
+.btn button{
+    background-color: black;
+}
+
+.lower_head button{
+    margin-top: 4px;;
+    margin-left: 36px;
+   background-color: #aaaaaa2b;
+   border-color: #5251512b ;
+   border-radius:25px ;
+   font-size: 13px;
+   padding:6px;
+}
+
+.side_bar{
+    width: 243px;
+    max-height:100%;
+    background: white;
+      top:64px;
+    position:fixed;
+    overflow:scroll;
+    overflow-x: hidden;
+    box-sizing: border-box; 
+}
+
+.side_bar a{
+    width:100%;
+    display: block;
+    line-height: 45px;
+    padding-left:20px;
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+   margin-top:8px;
+   transition-property: background;
+   transition: 0.5s;        
+}
+
+.side_bar i{
+    padding-right: 20px;
+}
+
+.si{
+    background:white;
+    border-color: rgb(71, 141, 179);
+    border-style:1px;
+    width: 91px;
+    height: 34px;  
+    margin-left: 23px;     
+}
+
+#side_log{
+    padding:0;
+}
+
+.para{
+    font-family: "Roboto","Arial",sans-serif;
+   
+    font-size: 14px;
+    margin-left: 23px;
+    margin-top: 18px;
+}
+
+  .side_bar h4{
+    margin-left: 12px;
+    margin-top: 0px;
+    font-size:15px;
+    color:rgb(119, 119, 119);
+  }
+
+  #h4{   
+    margin-left: 19px;
+    margin-top: -14px;
+    margin-bottom: 11px;
+}
+
+.para2{
+
+    color: rgb(84, 83, 83);
+    font-size: 15px;
+    margin-left: 21px;
+  }
+
+  .para3{
+    
+    color: rgb(145 139 139);
+    font-size: 12px;
+    margin-left: 22px;
+}
+
+  .side_bar a:hover{
+    background-color:  rgb(218, 218, 218);
+  }
+
+ #sidebar_btn{
+    position:absolute;
+    left: 22px;
+    top: 22px;
+ }
+
+ #sidebar_btn:hover{
+    color:rgb(145 139 139);
+   
+ }
+
+#check:checked ~.side_bar{
+    left:-167px;
+    
+}
+
+#check{
+    position:absolute;
+    display: none;
+}
+
+#check:checked ~.side_bar span{
+   display:none;
+}
+
+#check:checked ~.side_bar #sideview1 {
+    margin-left:170px;
+    
+ }
+ #check:checked ~.side_bar #sideview2 {
+     margin-left:170px;
+     line-height: 80px;
+  }
+  #check:checked ~.side_bar #sideview3 {
+     margin-left:170px;
+     line-height: 80px;
+  }
+  #check:checked ~.side_bar #sideview4 {
+     margin-left:170px;
+     line-height: 80px;
+  }
+  #check:checked ~.side_bar #sideview5 {
+     margin-left:170px;
+     line-height: 80px;
+  }
+  #check:checked ~.container{
+   margin-left:77px;
+  width:100%;
+  }
+  
+.container{
+    width: 84%;
+    height: 100vh;
+    background: whitesmoke;
+    margin-left: 242px;
+    margin-top: 125px;
+    position:static;
+    
+}
+.aj{
+    position: fixed;
+    width: 100%;
+    height:125px;
+    top: 0px;
+    background-color: white;
+
+}
+.card{
+    width:23%;
+     background-color: whitesmoke;
+     margin-left:18px;
+     margin-top:px;
+     padding-top: 18px;
+     float:left;
+     margin-bottom: 40px;
+             
+}
+.ved video {
+    width:100%;
+}
+.first{
+  border-radius: 50%;
+  height:43px;
+  width:43px;
+}
+.title span{
+    margin-top: 10px;
+}
+
+.card:hover{
+    
+  transform: scale(1.3);
+  transition: 1s ;
+  cursor:pointer;
+  
+}
+.right_area  button:hover{
+background-color:  rgb(218, 218, 218);
+
+}
+.si:hover{
+   background: rgb(218, 218, 218);
+}
+.lower_head button:hover{
+    background-color: rgb(218, 218, 218) ;
+}
